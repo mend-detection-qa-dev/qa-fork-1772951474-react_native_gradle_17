@@ -1,0 +1,3 @@
+rootProject.name = 'android-library-test-tka-9308'
+
+include ':android-library'
