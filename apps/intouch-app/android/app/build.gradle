@@ -1,0 +1,20 @@
+apply plugin: "com.android.application"
+apply plugin: "com.facebook.react"
+
+android {
+    compileSdkVersion 34
+    namespace "com.intouch"
+
+    defaultConfig {
+        applicationId "com.intouch"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation "com.facebook.react:react-android"
+    implementation "androidx.appcompat:appcompat:1.6.1"
+}
